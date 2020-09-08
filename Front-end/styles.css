@@ -1,0 +1,79 @@
+
+/* body{
+    background: url("gridme.png") repeat;
+    -webkit-animation: scrolling 5s linear infinite;
+    -moz-animation: scrolling 5s linear infinite;
+    -o-animation: scrolling 5s linear infinite;
+    animation: scrolling 5s linear infinite;
+} */
+ /* //////=========================================Working code below */
+ /* @import url(https://fonts.googleapis.com/css?family=Exo:100); */
+
+#background {
+  width: 1600px;
+  height: 1280px;
+  background: url('gridme.png');
+
+  -webkit-animation: scrolling 5s linear infinite;
+  -moz-animation: scrolling 5s linear infinite;
+  -o-animation: scrolling 5s linear infinite;
+  animation: scrolling 5s linear infinite;
+}
+
+@-webkit-keyframes scrolling {
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 25% 25%;
+    }
+  
+  }
+  /* -webkit-animation-timing-function: linear;
+    -webkit-animation: scrolling .92s infinite;  */
+/* ////=================================================================Working Code above  */
+/* body{
+    background: url("gridme.png") repeat;
+    -webkit-animation: scrolling 5s linear infinite;
+    -moz-animation: scrolling 5s linear infinite;
+    -o-animation: scrolling 5s linear infinite;
+    animation: scrolling 5s linear infinite;
+} */
+
+/* @-webkit-keyframes scrolling-reverse {
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 0 50%;
+    }
+  } */
+
+  #leaderboard {
+      width: 130px;
+      background-color: grey;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
